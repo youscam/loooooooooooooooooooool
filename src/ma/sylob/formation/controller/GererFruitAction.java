@@ -27,9 +27,10 @@ public class GererFruitAction extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher rd = null;
-		rd = request.getRequestDispatcher("/index.jsp");
-		rd.forward(request, response);
+		
+//		RequestDispatcher rd = null;
+//		rd = request.getRequestDispatcher("/index.jsp");
+//		rd.forward(request, response);
 	}
 
 	/**
